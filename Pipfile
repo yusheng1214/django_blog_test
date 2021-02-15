@@ -1,11 +1,20 @@
 [[source]]
+name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
-name = "pypi"
-
-[packages]
 
 [dev-packages]
+fabric = "*"
+coverage = "*"
+
+[packages]
+django = "~=2.2"
+markdown = "*"
+gunicorn = "*"
+faker = "*"
+django-pure-pagination = "*"
+elasticsearch = ">=2,<3"
+django-haystack = "*"
 
 [requires]
 python_version = "3.8"
